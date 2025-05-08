@@ -1,0 +1,59 @@
+.voeu-form {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.voeu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.module-input {
+  width: 100%;
+  max-width: 600px;
+  padding: 10px;
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.teaching-type label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.type-buttons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: nowrap;
+}
+
+.toggle-btn {
+  padding: 10px 20px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  background-color: white;
+  cursor: pointer;
+  min-width: 80px;
+}
+
+.toggle-btn.selected {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
